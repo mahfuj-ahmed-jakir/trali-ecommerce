@@ -1,0 +1,37 @@
+#sidebar {
+  height: 90vh;
+}
+
+.rs-sidenav-default,
+.rs-sidenav-default .rs-dropdown-toggle,
+.rs-sidenav-default .rs-sidenav-item {
+  background-color: #202020;
+  color: #f1f1f1;
+}
+
+.rs-sidenav-default,
+.rs-sidenav-default .rs-dropdown-toggle,
+.rs-sidenav-default .rs-sidenav-item:hover {
+  background: #303030;
+  color: #f1f1f1;
+}
+
+.sidebar_mem {
+  padding: 20px 20px 0 20px;
+  text-align: center;
+  color: #f1f1f1;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.sidebar_mem img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-bottom: 10px;
+  border: 2px solid hsla(0, 0%, 100%, 0.9);
+}

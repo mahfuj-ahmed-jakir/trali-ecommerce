@@ -1,0 +1,132 @@
+.navbar {
+  height: 100px;
+  background: #fff !important;
+  border-bottom: 2px solid #ddd;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.nav-brand {
+  height: 100px !important;
+  padding: 0 !important;
+  line-height: 100px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 65%;
+  align-items: center;
+}
+
+.nav-items a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #252525;
+}
+
+.menu_login {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: blueviolet;
+}
+
+.menu_login:hover {
+  color: #05297f;
+  text-decoration-line: none;
+  -moz-text-decoration-line: none;
+}
+
+.nav-items a:hover {
+  background: transparent !important;
+  color: #05297f !important;
+}
+
+.nav-cart {
+  height: 100px;
+  line-height: 115px;
+}
+
+.nav-icons svg {
+  font-size: 25px;
+  color: #000;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.nav-icons svg:hover {
+  color: #05297f;
+}
+
+.nav-cart-icon {
+  position: relative;
+  cursor: pointer;
+}
+
+.cart-icon-dot {
+  cursor: pointer;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  right: -8px;
+  bottom: 5px;
+  background: #05297f;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.cart-icon-dot p {
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 11px;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rs-dropdown-toggle,
+.rs-dropdown-toggle.rs-btn {
+  position: relative;
+  z-index: 5;
+  padding: 0 !important;
+  display: inline-block;
+  cursor: pointer;
+  background: none !important;
+}
+
+.rs-dropdown-toggle-caret {
+  display: none;
+}
+
+.rs-nav .rs-dropdown > .rs-dropdown-toggle {
+  height: 36px;
+  padding: 0 !important;
+  margin: 0 !important;
+  margin-top: -12px !important;
+  background: none !important;
+}
+
+.rs-nav .rs-dropdown > .rs-dropdown-toggle:hover {
+  background: none !important;
+}

@@ -1,0 +1,19 @@
+#panel_board {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.panel_board {
+  width: 220px;
+  text-align: center;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  color: #151515;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}

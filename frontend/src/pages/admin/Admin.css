@@ -1,0 +1,76 @@
+#dash {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dash_menu {
+  width: 20%;
+  background: #202020;
+  height: 90vh;
+  overflow-y: auto;
+}
+
+.dash_con {
+  width: 80%;
+  background: #d9d9d9;
+  padding: 30px;
+  height: 90vh;
+  overflow-y: auto;
+}
+
+.dash_con::-webkit-scrollbar {
+  width: 15px;
+  background: #202020;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.dash_con::-webkit-scrollbar-thumb {
+  background: #505050;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.dash_menu::-webkit-scrollbar {
+  width: 15px;
+  background: #202020;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.dash_menu::-webkit-scrollbar-thumb {
+  background: #505050;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.ven_nav {
+  height: 10vh !important;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  cursor: pointer;
+  min-height: 60px;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-left: 25px;
+}
+
+.navbar-brand:hover {
+  text-decoration: none;
+  opacity: 0.9;
+}

@@ -1,0 +1,50 @@
+.slider-images {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 250px 0 50px;
+}
+
+.rs-carousel {
+  height: 100vh;
+}
+
+.slider-text h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #05297f;
+}
+
+.slider-text h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 80px;
+  color: #252525;
+  margin-top: 20px;
+  width: 800px;
+}
+
+.slider-text h1 span {
+  color: #05297f;
+}
+
+.slider-text button {
+  background: #05297f;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+  padding: 15px 40px;
+  margin-top: 40px;
+}

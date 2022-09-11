@@ -1,0 +1,69 @@
+.top-product {
+  margin-bottom: 20px;
+}
+
+.top-product h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #252525;
+}
+
+.top-product ul {
+  text-align: right;
+}
+
+.top-product ul li {
+  display: inline-block;
+  margin-left: 40px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #252525;
+  line-height: 55px;
+  cursor: pointer;
+  position: relative;
+}
+
+.top-product ul li span {
+  position: absolute;
+  display: inline-block;
+  height: 4px;
+  width: 4px;
+  left: -10px;
+  top: 49%;
+  background: crimson;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  transition: linear all 0.3s;
+  -webkit-transition: linear all 0.3s;
+  -moz-transition: linear all 0.3s;
+  -ms-transition: linear all 0.3s;
+  -o-transition: linear all 0.3s;
+}
+
+.top-product ul li:hover span {
+  width: 115%;
+  background: rgba(220, 20, 60, 0.45);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.top-product ul li:first-child:hover span {
+  width: 182%;
+  background: rgba(220, 20, 60, 0.45);
+}
